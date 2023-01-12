@@ -35,4 +35,4 @@ In the script for Cisco we start creating two .txt, one for the Commands and ano
 ## Requirements
 
 * Paramiko
-* Datetime
+* Time
