@@ -1,0 +1,57 @@
+
+
+RP/0/RSP0/CPU0:GNCYGTAKS1D1F3C4#terminal length 0 
+Thu Jan 12 17:24:17.649 GUA
+RP/0/RSP0/CPU0:GNCYGTAKS1D1F3C4# show platform 
+Thu Jan 12 17:24:18.098 GUA
+Node		Type			  State		   Config State
+-----------------------------------------------------------------------------
+0/RSP0/CPU0     ASR9001-RP(Active)        IOS XR RUN       PWR,NSHUT,MON
+0/0/CPU0        ASR9001-LC-S              IOS XR RUN       PWR,NSHUT,MON
+0/0/0           A9K-MPA-20X1GE            OK               PWR,NSHUT,MON
+RP/0/RSP0/CPU0:GNCYGTAKS1D1F3C4# ! 
+RP/0/RSP0/CPU0:GNCYGTAKS1D1F3C4# show filesystem 
+Thu Jan 12 17:24:27.468 GUA
+File Systems:
+
+     Size(b)     Free(b)        Type  Flags  Prefixes
+           -           -     network     rw  qsm/dev/fs/tftp:
+           -           -     network     rw  qsm/dev/fs/rcp:
+           -           -     network     rw  qsm/dev/fs/ftp:
+  1002438656   997393920  dumper-lnk     rw  qsm/dumper_disk0a:
+  3007315968  1809317376  dumper-lnk     rw  qsm/dumper_harddisk:
+      224256      194560  dumper-lnk     rw  qsm/dumper_nvram:
+  4009738240  2113860608  dumper-lnk     rw  qsm/dumper_disk0:
+    28966912    28943732  dumper-lnk     rw  qsm/dumper_configflash:
+    44695552    22839248  dumper-lnk     rw  qsm/dumper_bootflash:
+  4009738240  2113860608  flash-disk     rw  disk0:
+  3007315968  1809317376    harddisk     rw  harddisk:
+  1002438656   997393920  flash-disk     rw  disk0a:
+    28966912    28943732       flash     rw  configflash:
+    44695552    22839248       flash     rw  bootflash:
+      224256      194560       nvram     rw  nvram:
+RP/0/RSP0/CPU0:GNCYGTAKS1D1F3C4# ! 
+RP/0/RSP0/CPU0:GNCYGTAKS1D1F3C4# show hw-module fpd location all 
+Thu Jan 12 17:24:37.485 GUA
+
+===================================== ==========================================
+                                      Existing Field Programmable Devices
+                                      ==========================================
+                                        HW                       Current SW Upg/
+Location     Card Type                Version Type Subtype Inst   Version   Dng?
+============ ======================== ======= ==== ======= ==== =========== ====
+0/RSP0/CPU0  ASR9001-RP                 1.0   lc   fpga2   0       1.15     No 
+                                              lc   cbc     0      22.114    No 
+                                              lc   rommon  0       3.04     No 
+--------------------------------------------------------------------------------
+0/FT0/SP     ASR-9001-FAN               1.0   ft   cbc     7      24.115    No 
+--------------------------------------------------------------------------------
+0/0/CPU0     ASR9001-LC-S               1.0   lc   cbc     0      23.114    No 
+                                              lc   fpga4   0       2.10     No 
+                                              lc   fpga2   0       1.18     No 
+                                              lc   rommon  0       3.04     No 
+--------------------------------------------------------------------------------
+0/0/0        A9K-MPA-20X1GE             1.0   spa  fpga3   0       1.01     No 
+--------------------------------------------------------------------------------
+RP/0/RSP0/CPU0:GNCYGTAKS1D1F3C4# ! 
+RP/0/RSP0/CPU0:GNCYGTAKS1D1F3C4#

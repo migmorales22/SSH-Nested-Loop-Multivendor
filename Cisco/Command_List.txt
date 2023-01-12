@@ -1,0 +1,6 @@
+show platform
+!
+show filesystem
+!
+show hw-module fpd location all
+!
