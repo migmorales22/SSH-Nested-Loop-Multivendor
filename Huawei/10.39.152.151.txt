@@ -1,0 +1,102 @@
+
+Info: The max number of VTY users is 15, the number of current VTY users online is 2, and total number of terminal users online is 2.
+      The current login time is 2023-01-12 17:28:54-06:00.
+<OSTONISTN1W1A01A01ENA2>screen-length 0 temporary
+Info: The configuration takes effect on the current user terminal interface only.
+<OSTONISTN1W1A01A01ENA2> display memory-usage 
+Memory utilization statistics at 2023-01-12 17:28:54 776 ms
+System Total Memory Is: 9723090 Kbytes
+Total Memory Used Is: 2453420 Kbytes
+Memory Using Percentage Is: 25%
+----------------------------------------
+Process memory information in the slot:
+----------------------------------------
+ProcessId  ProcessName      Used(Kbytes)
+----------------------------------------
+6          CFG                    372505
+32         LM                     226510
+1006       PSM1                    68389
+10002      FES                     55373
+1010       FESMB                   43541
+1008       IFM                     27405
+1001       PROTO2                  29569
+7          SM                      24653
+1017       OPS                     22093
+1021       VFPFWD                  19085
+10001      RM                      15965
+1014       UM                      12861
+1004       STK                     15917
+1022       SOC                     12969
+1016       SSH                     13869
+1003       LLP                     10277
+1011       PNP                      9513
+1018       LLDP                     9253
+1013       OAM                      9253
+1002       CLOCK                    9253
+1005       DHCP                    11813
+1012       NSM                      9253
+1015       PSM2                    11813
+1009       RESP                     9253
+1000       TTY                      9253
+1007       EWM                     11813
+0          system                1381969
+----------------------------------------
+<OSTONISTN1W1A01A01ENA2> display cpu-usage  
+Cpu utilization statistics at 2023-01-12 17:28:59 627 ms
+System cpu use rate is : 19%
+Cpu utilization for five seconds: 19% ;  one minute: 18% ;  five minutes: 17%.
+Max CPU Usage : 82%
+Max CPU Usage Stat. Time : 2022-09-02 21:11:35 309 ms
+---------------------------
+ServiceName  UseRate
+---------------------------
+SYSTEM           18%
+FEA               1%
+AAA               0%
+ARP               0%
+BRAS              0%
+CMF               0%
+CSP               0%
+DEVICE            0%
+DHCP              0%
+ETRUNK            0%
+EUM               0%
+FEC               0%
+FIBRESM           0%
+IFM               0%
+IP STACK          0%
+LDT               0%
+LINK              0%
+LLDP              0%
+LOCAL PKT         0%
+MFLP              0%
+MSTP              0%
+ND                0%
+NETSTREAM         0%
+OAM               0%
+PKI               0%
+PNP               0%
+PTPA              0%
+RBS               0%
+RGM               0%
+RM                0%
+SLA               0%
+SMLK              0%
+SOC               0%
+SVRO              0%
+TNLM              0%
+TUNNEL            0%
+VLAN              0%
+---------------------------
+CPU Usage Details
+----------------------------------------------------------------
+CPU     Current  FiveSec   OneMin  FiveMin  Max MaxTime         
+----------------------------------------------------------------
+cpu0        21%      21%      19%      20%  77% 2022-09-02 21:11:31
+cpu1        19%      19%      16%      16%  79% 2022-09-02 21:11:41
+cpu2        19%      19%      19%      17%  82% 2022-09-02 21:11:41
+cpu6        18%      18%      19%      17%  83% 2022-09-02 21:11:31
+cpu7        18%      18%      18%      16%  81% 2022-09-02 21:11:31
+----------------------------------------------------------------
+<OSTONISTN1W1A01A01ENA2>  
+<OSTONISTN1W1A01A01ENA2>
