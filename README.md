@@ -4,7 +4,7 @@ An amazing tool to get the config of the Routers and Switches deployed around yo
 
 Here we would show how the script works with vendors like Cisco and Huawei.
 
-##  Cisco:
+##  Cisco
 
 In the script for Cisco devices we start creating two .txt, one for the Commands and another one for the Devices. 
 
@@ -49,7 +49,7 @@ For example in Cisco:
 
 Then you should be good to run the script as many times as you want!!. There's not limit on how many devices you can put in the Devices_List.txt.
 
-##  Huawei:
+##  Huawei
 
 The script for Huawei devices, it's a little bit different, you don't need to create any .txt, because those inputs are in the script, so you just have to write it down into the script.
 
