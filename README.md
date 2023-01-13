@@ -24,7 +24,11 @@ And the formatting for the Device_List.txt would be:
 10.192.35.105
 10.192.35.108
 ```
-Then we put our credentials for the SSH connection,
+Then put your SSH credentials in the username and password variables.
+```js
+username = "XXXXX"
+password = "XXXXX" 
+```
 
 
 ##  Huawei:
