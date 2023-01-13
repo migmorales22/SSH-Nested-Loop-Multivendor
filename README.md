@@ -69,14 +69,17 @@ Then put your SSH credentials in the username and password variables.
 username = "XXXXX"
 password = "XXXXX" 
 ```
-**Note:** In line 24, you might wanna put the command used by your vendor of choices that lets you runs a command and give you the whole output of this one. If you dont want it, just erase this line.
+**Note:** In line 24, you might wanna put the command used by your vendor of choices that lets you runs a command and give you the whole output of this one. If you don't want it, just erase this line.
 
 For example in Huawei:
 ```js
     comm.send("screen-length 0 temporary\n")
 ```
 
+Customize the script to whatever are your needs, and you should be good to go.!!
+
 ## Requirements
 
 * Paramiko
 * Time
+* Python 3.9 =>
