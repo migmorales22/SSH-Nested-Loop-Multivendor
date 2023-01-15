@@ -1,4 +1,4 @@
-# SSH-Nested-Loop-Multivendor
+# SSH Nested Loop Multivendor
 
 An amazing tool to get the config of the Routers and Switches deployed around your Service Provider using Paramiko.
 
